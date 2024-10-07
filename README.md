@@ -8,7 +8,7 @@ Portainer: é uma plataforma leve de entrega de serviços para aplicativos em co
 
 Cloud: Computação em nuvem é um termo coloquial para a disponibilidade sob demanda de recursos do sistema de computador, especialmente armazenamento de dados e capacidade de computação, sem o gerenciamento ativo direto do utilizador.
 
-## **Links Oficiais da Canonical, Ubuntu, Mint, VirtualBOX, Docker e Portainer:**
+Links Oficiais da Canonical, Ubuntu, Mint, VirtualBOX, Docker e Portainer:
 🔴 Canonical: https://canonical.com/<br>
 🔴 Linux Ubuntu: https://ubuntu.com/<br>
 🔴 Linux Mint: https://www.linuxmint.com/<br>
@@ -24,7 +24,7 @@ Cloud: Computação em nuvem é um termo coloquial para a disponibilidade sob de
 
 # PRIMEIRA ETAPA: INSTALAÇÃO DO UBUNTU SERVER 24.04
 
-## **🤩🤩 Instalação do Ubuntu Server 24.04.x LTS no Oracle VirtualBOX Projeto Bora para Prática 🤩🤩**
+Instalação do Ubuntu Server 24.04.x LTS no Oracle VirtualBOX Projeto Bora para Prática
 
 Vídeo de instalação do Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender a baixar a ISO do Ubuntu Server do site oficial, criar e customizar a máquina virtual no VirtualBOX e fazer a instalação padrão do Ubuntu Server, no próximo vídeo começamos a etapa de configuração.
 
@@ -38,7 +38,7 @@ Conteúdo estudado nessa instalação:<br>
 
 # SEGUNDA ETAPA: CONFIGURAÇÕES BÁSICAS DO UBUNTU SERVER 24.04
 
-## **🖥️ Configurações BÁSICAS do Ubuntu Server 24.04.x LTS (Noble Numbat) Essentials ANTES DE CONTINUAR O CURSO 🤩🤩**
+Configurações BÁSICAS do Ubuntu Server 24.04.x LTS (Noble Numbat) Essentials ANTES DE CONTINUAR O CURSO
 
 Vídeo de configurações básicas do Ubuntu Server 24.04.x LTS no Oracle VirtualBOX antes de continuar o curso, nesse vídeo você vai aprender todos os procedimentos básicos para deixar o nosso servidor configurado de forma correta antes de iniciar a implementação do Docker e Portainer.
 
@@ -50,7 +50,7 @@ Seguir os próximos vídeos de:<br>
 05 - Habilitando o Ubuntu Pro<br>
 06 - Configuração do OpenSSH Server<br>
 
-## **🤩🤩 Atualização do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
+Atualização do Ubuntu Server 24.04.x LTS Projeto Bora para Prática
 
 Vídeo de atualização do Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para manter o seu servidor Ubuntu sempre atualizado antes de começar a instalar e configurar os principais serviços de rede.
 
@@ -68,7 +68,7 @@ Conteúdo estudado nessa atualização:<br>
 
 **OBSERVAÇÃO IMPORTANTE: O VÍDEO DAS ATUALIZAÇÕES DO UBUNTU SERVER ESTÁ NA VERSÃO 22.04.x LTS, O PROCEDIMENTO DE ATUALIZAR É O MESMO NA VERSÃO 24.04.x LTS, LEVANDO EM CONSIDERAÇÃO APENAS AS DEPENDÊNCIAS DE APLICATIVOS QUE TEM NESSA DOCUMENTAÇÃO, ESSE CURSO ESTÁ USANDO A INSTALAÇÃO MINIMIZADA (MINIMIZED) DO UBUNTU SERVER.**
 
-## **🤩🤩 Configurando a Placa de Rede do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
+Configurando a Placa de Rede do Ubuntu Server 24.04.x LTS Projeto Bora para Prática
 
 Vídeo de configuração da Placa de Rede do Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para configurar o Hostname (Novo do Servidor), FQDN (Nome Totalmente Qualificado), tabela de Hosts (Computadores) e configurar a Placa de Rede de modo Estático no Servidor Ubuntu Server e fazer todos os testes de rede antes de iniciar a instalação dos serviços.
 
@@ -92,7 +92,7 @@ Conteúdo estudado nessa configuração:<br>
 
 **OBSERVAÇÃO IMPORTANTE: O VÍDEO DAS CONFIGURAÇÕES DA PLACA DE REDE DO UBUNTU SERVER ESTÁ NA VERSÃO 22.04.x LTS, AS CONFIGURAÇÕES É A MESMA NA VERSÃO 24.04.x LTS, LEVANDO EM CONSIDERAÇÃO APENAS AS DEPENDÊNCIAS DE APLICATIVOS QUE TEM NESSA DOCUMENTAÇÃO, ESSE CURSO ESTÁ USANDO A INSTALAÇÃO MINIMIZADA (MINIMIZED) DO UBUNTU SERVER.**
 
-## **🤩🤩 Configurando a Data e Hora do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
+Configurando a Data e Hora do Ubuntu Server 24.04.x LTS Projeto Bora para Prática
 
 Vídeo de configuração da Data e Hora do Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para configurar a localidade (Locale), Zona de Horário (Timezone), Sincronismo de Data Hora com o Protocolo NTP (Network Time Protocol) e configurações manuais de Data, Hora e sincronismo com o Hardware.
 
@@ -116,7 +116,7 @@ Conteúdo estudado nessa configuração:<br>
 
 **OBSERVAÇÃO IMPORTANTE: O VÍDEO DAS CONFIGURAÇÕES DO LOCALE E TIMEZONE DO UBUNTU SERVER ESTÁ NA VERSÃO 22.04.x LTS, AS CONFIGURAÇÕES É A MESMA NA VERSÃO 24.04.x LTS, LEVANDO EM CONSIDERAÇÃO APENAS AS DEPENDÊNCIAS DE APLICATIVOS QUE TEM NESSA DOCUMENTAÇÃO, ESSE CURSO ESTÁ USANDO A INSTALAÇÃO MINIMIZADA (MINIMIZED) DO UBUNTU SERVER.**
 
-## **🤩🤩 Desligando e Reiniciando o Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
+Desligando e Reiniciando o Ubuntu Server 24.04.x LTS Projeto Bora para Prática
 
 Vídeo de desligar e reiniciar o Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para desligar ou reiniciar o servidor de forma correta, vai aprender a agendar um agendamento de desligamento ou reinicialização do sistema.
 
@@ -129,7 +129,7 @@ Conteúdo estudado nesse procedimento:<br>
 
 **OBSERVAÇÃO IMPORTANTE: O VÍDEO DE DESLIGAR E REINICIAR DO UBUNTU SERVER ESTÁ NA VERSÃO 22.04.x LTS, AS FORMAS DE DESLIGAR E REINICIAR É A MESMA NA VERSÃO 24.04.x LTS, LEVANDO EM CONSIDERAÇÃO APENAS AS DEPENDÊNCIAS DE APLICATIVOS QUE TEM NESSA DOCUMENTAÇÃO, ESSE CURSO ESTÁ USANDO A INSTALAÇÃO MINIMIZADA (MINIMIZED) DO UBUNTU SERVER.**
 
-## **🤩🤩 Habilitando a Licença Ubuntu Pro Free no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
+Habilitando a Licença Ubuntu Pro Free no Ubuntu Server 24.04.x LTS Projeto Bora para Prática
 
 Vídeo de configuração da Licença do Ubuntu Pro Free no Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para habilitar o suporte ao Ubuntu Pro Free no Ubuntu Server, esse recurso permiti manter o nosso servidor sempre atualizado com os novos patch's de segurança e garante o suporte até 10 anos de uso da plataforma para Canonical.
 
@@ -148,7 +148,7 @@ Conteúdo estudado nessa configuração:<br>
 
 **OBSERVAÇÃO IMPORTANTE: O VÍDEO DE HABILITAR O UBUNTU PRO NO UBUNTU SERVER ESTÁ NA VERSÃO 22.04.x LTS, AS CONFIGURAÇÕES É A MESMA NA VERSÃO 24.04.x LTS, LEVANDO EM CONSIDERAÇÃO APENAS AS DEPENDÊNCIAS DE APLICATIVOS QUE TEM NESSA DOCUMENTAÇÃO, ESSE CURSO ESTÁ USANDO A INSTALAÇÃO MINIMIZADA (MINIMIZED) DO UBUNTU SERVER.**
 
-## **🤩🤩 Configuração do OpenSSH Server no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
+Configuração do OpenSSH Server no Ubuntu Server 24.04.x LTS Projeto Bora para Prática
 
 Vídeo de configuração do OpenSSH Server no Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para configurar o acesso remoto no nosso servidor de forma segura e customizada.
 
@@ -170,7 +170,7 @@ Conteúdo estudado nessa configuração:<br>
 
 **OBSERVAÇÃO IMPORTANTE: CASO VOCÊ QUEIRA APLICAR A SEGURANÇA AVANÇADA NO SERVIÇO DO OPENSSH SERVER, VEJA O VÍDEO DE CONFIGURAÇÃO FEITA NO CURSO DO CA-CERTIFICATE, NESSE VÍDEO É HABILITADO OS RECURSOS DE CHAVE PRIVADA/PÚBLICA E CONFIGURADO OS LOGS DETALHADO DE CONEXÃO REMOTA.**
 
-## **🤩🤩 Desabilitando o SNAPd e Cloud-Init no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
+Desabilitando o SNAPd e Cloud-Init no Ubuntu Server 24.04.x LTS Projeto Bora para Prática
 
 Vídeo de desabilitar e remover o SNAPd e Cloud-Init no Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para remover o bloquear a instalação acidental do SNAPd e do Cloud-Init, recursos esses que não será utilizado nesse curso e que consome recursos desnecessário do servidor.
 
@@ -190,7 +190,7 @@ Conteúdo estudado nessa configuração:<br>
 #07_ Verificando os Status de Serviços Rodando no Ubuntu Server<br>
 #08_ Reiniciando o Ubuntu Server para Aplicar as mudanças<br>
 
-## **🖥️ Monitoramento do Desempenho de Hardware do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
+Monitoramento do Desempenho de Hardware do Ubuntu Server 24.04.x LTS Projeto Bora para Prática
 
 Vídeo de monitoramento do desempenho no Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para monitorar o desempenho de Processador CPU, Memória RAM, Hard Disk HD e Rede Network utilizando comandos simples sem a necessidade de instalação de sistemas de monitoramento complexo.
 
@@ -214,7 +214,7 @@ Conteúdo estudado nessa configuração:<br>
 #07_ Verificando o Desempenho Rede (Network) Ubuntu Server<br>
 #08_ Estressando o Servidor Ubuntu Server para verificar as mudanças no Gráfico<br>
 
-## **🖥️ Habilitando a Segurança do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
+Habilitando a Segurança do Ubuntu Server 24.04.x LTS Projeto Bora para Prática
 
 Vídeo de segurança no Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos habilitar e configurar o sistema de firewall UFW (Uncomplicated Firewall) em nosso servidor, criar as regras básicas de liberação de conexão externos e permitir somente de forma limitada e logada todo o acesso remoto via protocolo SSH em nosso servidor.
 
@@ -245,7 +245,7 @@ Conteúdo estudado nessa implementação:<br>
 
 # TERCEIRA ETAPA: INSTALAÇÃO E CONFIGURAÇÃO DO DOCKER-CE E PORTAINER
 
-## **🤩🤩 Instalação e Configuração do Docker-CE no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
+Instalação e Configuração do Docker-CE no Ubuntu Server 24.04.x LTS Projeto Bora para Prática
 
 Vídeo de instalação e configuração do Docker-CE (Container Engine - Community Edition) no Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para instalar e configurar o sistema de Containers Docker-CE (Container Engine - Community Edition) em nosso servidor para criar os primeiros cenários de containers e micro-serviços.
 
@@ -272,7 +272,7 @@ Conteúdo estudado nesse desafio:<br>
 #14_ Verificando as Imagens dos Containers no Docker-CE<br>
 #15_ Limpando todas as Imagens, Containers, Volumes e Redes no Docker-CE<br>
 
-## **🤩🤩 Instalação e Configuração do Portainer-CE no Docker-CE do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
+Instalação e Configuração do Portainer-CE no Docker-CE do Ubuntu Server 24.04.x LTS Projeto Bora para Prática
 
 Vídeo de instalação e configuração do Portainer.io (Community Edition) no Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para instalar e configurar o sistema de Gerenciamento de Containers Portainer.io (Community Edition) em nosso servidor para criar e gerenciar os containers e micro-serviços de forma fácil.
 
@@ -292,7 +292,7 @@ Conteúdo estudado nesse desafio:<br>
 
 # QUARTA ETAPA: COMANDO BÁSICOS DO DOCKER-CE E PORTAINER
 
-## **🤩🤩 Comandos Básicos do Docker-CE no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
+Comandos Básicos do Docker-CE no Ubuntu Server 24.04.x LTS Projeto Bora para Prática
 
 Vídeo de comandos básicos do Docker-CE (Community Edition) no Ubuntu Server 24.04.x LTS, nesse vídeo você vai aprender todos os comandos básicos para pesquisar, criar, iniciar, parar e remover Containers e Imagens no Docker-CE, que é bases para entender como funcionar o Docker e os Container na prática.
 
@@ -308,7 +308,7 @@ Conteúdo estudado nesse desafio:<br>
 #09_ Criando (Create), Renomeando (Rename) e Executando (Run) um novo Contêiner (Container) no Docker-CE<br>
 #10_ Listando Imagens (Images), Histórico (History), Inspecionando (Inspect) e Removendo (RM) no Docker-CE<br>
 
-## **🤩🤩 Comandos Básicos de CPU e RAM do Docker-CE no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
+Comandos Básicos de CPU e RAM do Docker-CE no Ubuntu Server 24.04.x LTS Projeto Bora para Prática
 
 Vídeo de comandos básicos de CPU e RAM do Docker-CE (Community Edition) no Ubuntu Server 24.04.x LTS, nesse vídeo você vai aprender todos os comandos básicos para criar, iniciar, conectar, parar e atualizar as informações dos Container no Docker-CE referente a Processadores (CPU) e Memória RAM.
 
