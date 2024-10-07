@@ -1,33 +1,3 @@
-# Curso GRÁTIS de GNU/Linux Ubuntu Server 24.04.x LTS (Noble Numbat) Essentials (Docker-CE e Portainer.io)
-
-## 💰 Ajude o projeto Bora para Prática a continuar fazendo vídeos e materiais gratuitos para o Canal do YouTUBE
-## 💰 Chave PIX do projeto: robsonvaamonde@gmail.com
-## 💰 Link de doação do PagSeguro: https://pag.ae/bjlSJcH
-## 💰 Link de doação do Paypal: https://www.paypal.com/donate/?hosted_button_id=EALLB7DQ3U6H2
-
-Robson Vaamonde<br>
-Procedimentos em TI: http://procedimentosemti.com.br<br>
-Bora para Prática: http://boraparapratica.com.br<br>
-Robson Vaamonde: http://vaamonde.com.br<br>
-Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
-Facebook Bora para Prática: https://www.facebook.com/boraparapratica<br>
-Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
-YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
-LinkedIn Robson Vaamonde: https://www.linkedin.com/in/robson-vaamonde-0b029028/<br>
-Github Procedimentos em TI: https://github.com/vaamonde<br>
-
-<div align="center">
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/vaamonde/ubuntu-2404?style=plastic">
-<a href="https://github.com/vaamonde/ubuntu-2404/stargazers"><img src="https://img.shields.io/github/stars/vaamonde/ubuntu-2404" alt="Stars Badge"/></a>
-<a href="https://github.com/vaamonde/ubuntu-2404/network/members"><img src="https://img.shields.io/github/forks/vaamonde/ubuntu-2404" alt="Forks Badge"/></a>
-<a href="https://github.com/vaamonde/ubuntu-2404/pulls"><img src="https://img.shields.io/github/issues-pr/vaamonde/ubuntu-2404" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/vaamonde/ubuntu-2404/issues"><img src="https://img.shields.io/github/issues/vaamonde/ubuntu-2404" alt="Issues Badge"/></a>
-<a href="https://github.com/vaamonde/ubuntu-2404/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/vaamonde/ubuntu-2404?color=2b9348"></a>
-<a href="https://github.com/vaamonde/ubuntu-2404/blob/master/LICENSE"><img src="https://img.shields.io/github/license/vaamonde/ubuntu-2404?color=2b9348" alt="License Badge"/></a>
-</div>
-
-Esse curso tem como objetivo demonstrar a instalação e configuração da nova versão de Servidor da Canonical o GNU/Linux Ubuntu Server 24.04.x LTS Noble Numbat, todo o procedimento de instalação e configuração dos principais serviços de redes serão executados de forma de container, seguindo as boas práticas de implementação para serviços Localhost, Intranet, Extranet ou para Internet Cloud, esse curso será a base para utilizamos os conceitos de DevOps (“desenvolvimento” e “operação”) com integração com os conceitos de CI/CD ("integração contínua" e "entrega contínua") migrando toda essa estrutura On-Premises (Servidores Locais) para Containers e depois Cloud (Nuvem) ou construído uma Base Sólida em Container (Docker) e automatizando a criação das VM's com o Vagrant (HashiCorp) e Ansible (Red Hat) numa etapa futura.
-
 Ubuntu: é um sistema operacional de código aberto, construído a partir do núcleo Linux, baseado no Debian. Esta distribuição Linux é desenvolvida pela Canonical Ltd.
 
 Container: costumam ser comparados com máquinas virtuais (VMs). Assim como as máquinas virtuais, os contêineres permitem empacotar o aplicativo com bibliotecas e outras dependências, oferecendo ambientes isolados para executar os serviços de software.
@@ -52,17 +22,6 @@ Cloud: Computação em nuvem é um termo coloquial para a disponibilidade sob de
 🔴 Docker: https://docs.docker.com/<br>
 🔴 Portainer: https://docs.portainer.io/
 
-## **Playlist do YouTUBE com todos os Vídeos do GNU/Linux Ubuntu Server 24.04.x LTS:**
-🔴 Link da Playlist: https://www.youtube.com/playlist?list=PLozhsZB1lLUNHEBmdLiUKBAU6zp6CLPd1
-
-## **🤩🤩 Apresentação do NOVO CURSO GRATUITO de Ubuntu Server 24.04 do Projeto Bora para Prática 🤩🤩**
-
-Vídeo de apresentação do NOVO Curso de Servidores GNU/Linux Ubuntu Server versão 24.04.x LTS do Projeto do Bora para Prática. O objetivo desse curso é mostrar os procedimentos básicos para baixar e instalar a versão do Ubuntu Server 24.04.x LTS em Máquina Virtual (ou em máquina física se preferir) no seu computador local, simulando um Servidor On-Premises (Servidor Local), fazer todas as configurações básicas e depois instalar e configurar os principais serviços de rede, com foco para Servidores Web tanto para Intranet, Extranet ou Internet utilizando como base os Conceitos de Containers junto com o Docker-CE e Portainer.io.
-
-[![Apresentação do Curso](http://img.youtube.com/vi/LmPu-D3BzQU/0.jpg)](https://www.youtube.com/watch?v=LmPu-D3BzQU"Apresentação do Curso")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=LmPu-D3BzQU
-
 # PRIMEIRA ETAPA: INSTALAÇÃO DO UBUNTU SERVER 24.04
 
 ## **🤩🤩 Instalação do Ubuntu Server 24.04.x LTS no Oracle VirtualBOX Projeto Bora para Prática 🤩🤩**
@@ -80,8 +39,6 @@ Conteúdo estudado nessa instalação:<br>
 [![Instalação Ubuntu Server](http://img.youtube.com/vi/p4f6a_-yM_8/0.jpg)](https://www.youtube.com/watch?v=p4f6a_-yM_8 "Instalação Ubuntu Server")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=p4f6a_-yM_8
-
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/01-install/01-InstalacaoDoUbuntuServer-24.04-LTS.md
 
 # SEGUNDA ETAPA: CONFIGURAÇÕES BÁSICAS DO UBUNTU SERVER 24.04
 
@@ -121,10 +78,6 @@ Conteúdo estudado nessa atualização:<br>
 
 [![Atualização Ubuntu Server](http://img.youtube.com/vi/B3FzV2bxjtw/0.jpg)](https://www.youtube.com/watch?v=B3FzV2bxjtw "Atualização Ubuntu Server")
 
-Link da vídeo aula: https://www.youtube.com/watch?v=B3FzV2bxjtw
-
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/02-settings/01-AtualizacaoDoServidorUbuntuServer.md
-
 ## **🤩🤩 Configurando a Placa de Rede do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
 Vídeo de configuração da Placa de Rede do Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para configurar o Hostname (Novo do Servidor), FQDN (Nome Totalmente Qualificado), tabela de Hosts (Computadores) e configurar a Placa de Rede de modo Estático no Servidor Ubuntu Server e fazer todos os testes de rede antes de iniciar a instalação dos serviços.
@@ -152,8 +105,6 @@ Conteúdo estudado nessa configuração:<br>
 [![Endereço IPv4 Ubuntu Server](http://img.youtube.com/vi/sKn5fTy1OHI/0.jpg)](https://www.youtube.com/watch?v=sKn5fTy1OHI "Endereço IPv4 Ubuntu Server")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=sKn5fTy1OHI
-
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/02-settings/02-ConfiguracaoHostnameHostsNetplan.md
 
 ## **🤩🤩 Configurando a Data e Hora do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
@@ -183,8 +134,6 @@ Conteúdo estudado nessa configuração:<br>
 
 Link da vídeo aula: https://www.youtube.com/watch?v=Szt6egOsKxE
 
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/02-settings/03-ConfiguracaoDoLocaleTimezone.md
-
 ## **🤩🤩 Desligando e Reiniciando o Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
 Vídeo de desligar e reiniciar o Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para desligar ou reiniciar o servidor de forma correta, vai aprender a agendar um agendamento de desligamento ou reinicialização do sistema.
@@ -201,8 +150,6 @@ Conteúdo estudado nesse procedimento:<br>
 [![Desligar Reiniciar Ubuntu Server](http://img.youtube.com/vi/NbA-k5-iLWA/0.jpg)](https://www.youtube.com/watch?v=NbA-k5-iLWA "Desligar e Reiniciar Ubuntu Server")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=NbA-k5-iLWA
-
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/02-settings/04-DesligarReiniciarServidor.md
 
 ## **🤩🤩 Habilitando a Licença Ubuntu Pro Free no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
@@ -226,8 +173,6 @@ Conteúdo estudado nessa configuração:<br>
 [![Ubuntu Pro Free](http://img.youtube.com/vi/SW9JzwjGdkM/0.jpg)](https://www.youtube.com/watch?v=SW9JzwjGdkM "Ubuntu Pro Free")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=SW9JzwjGdkM
-
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/02-settings/05-HabilitandoUbuntuPro.md
 
 ## **🤩🤩 Configuração do OpenSSH Server no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
@@ -253,15 +198,11 @@ Conteúdo estudado nessa configuração:<br>
 
 Link da vídeo aula: https://www.youtube.com/watch?v=-cforvm_oV0
 
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/02-settings/06-ConfiguracaoOpenSSH.md
-
 **OBSERVAÇÃO IMPORTANTE: CASO VOCÊ QUEIRA APLICAR A SEGURANÇA AVANÇADA NO SERVIÇO DO OPENSSH SERVER, VEJA O VÍDEO DE CONFIGURAÇÃO FEITA NO CURSO DO CA-CERTIFICATE, NESSE VÍDEO É HABILITADO OS RECURSOS DE CHAVE PRIVADA/PÚBLICA E CONFIGURADO OS LOGS DETALHADO DE CONEXÃO REMOTA.**
 
 [![OpenSSH Avançado](http://img.youtube.com/vi/Ri-_KMM361o/0.jpg)](https://www.youtube.com/watch?v=Ri-_KMM361o "OpenSSH Avançado")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=Ri-_KMM361o
-
-Link da documentação: https://github.com/vaamonde/ca-certificates/blob/main/01-ca/01-openssh.md
 
 ## **🤩🤩 Desabilitando o SNAPd e Cloud-Init no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
@@ -286,8 +227,6 @@ Conteúdo estudado nessa configuração:<br>
 [![SNAPd e Cloud-Init](http://img.youtube.com/vi/dWoiPeTGFFE/0.jpg)](https://www.youtube.com/watch?v=dWoiPeTGFFE "SNAPd e Cloud-Init")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=dWoiPeTGFFE
-
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/02-settings/07-DesabilitandoSnapdCloud-Init.md
 
 ## **🖥️ Monitoramento do Desempenho de Hardware do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
@@ -316,8 +255,6 @@ Conteúdo estudado nessa configuração:<br>
 [![Monitoramento](http://img.youtube.com/vi/fstVt6vOrYc/0.jpg)](https://www.youtube.com/watch?v=fstVt6vOrYc "Monitoramento")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=fstVt6vOrYc
-
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/02-settings/08-MonitoramentoHardware.md
 
 ## **🖥️ Habilitando a Segurança do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
@@ -351,8 +288,6 @@ Conteúdo estudado nessa implementação:<br>
 [![Segurança UFW](http://img.youtube.com/vi/130Xdztvm0I/0.jpg)](https://www.youtube.com/watch?v=130Xdztvm0I "Segurança UFW")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=130Xdztvm0I
-
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/02-settings/09-Seguranca-UFW.md
 
 [![Firewall UFW](http://img.youtube.com/vi/PuahiojOEGA/0.jpg)](https://www.youtube.com/watch?v=PuahiojOEGA "Firewall UFW")
 
@@ -391,8 +326,6 @@ Conteúdo estudado nesse desafio:<br>
 
 Link da vídeo aula: https://www.youtube.com/watch?v=M_Dazb75OTc
 
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/03-docker/01-docker-ce.md
-
 ## **🤩🤩 Instalação e Configuração do Portainer-CE no Docker-CE do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
 Vídeo de instalação e configuração do Portainer.io (Community Edition) no Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para instalar e configurar o sistema de Gerenciamento de Containers Portainer.io (Community Edition) em nosso servidor para criar e gerenciar os containers e micro-serviços de forma fácil.
@@ -414,8 +347,6 @@ Conteúdo estudado nesse desafio:<br>
 [![Instalação do Portainer-CE](http://img.youtube.com/vi/xe_ZZ_hrudw/0.jpg)](https://www.youtube.com/watch?v=xe_ZZ_hrudw "Instalação do Portainer-CE")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=xe_ZZ_hrudw
-
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/03-docker/02-portainer.md
 
 # QUARTA ETAPA: COMANDO BÁSICOS DO DOCKER-CE E PORTAINER
 
@@ -439,8 +370,6 @@ Conteúdo estudado nesse desafio:<br>
 
 Link da vídeo aula: 
 
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/04-container/01-basic-docker.md
-
 ## **🤩🤩 Comandos Básicos de CPU e RAM do Docker-CE no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
 Vídeo de comandos básicos de CPU e RAM do Docker-CE (Community Edition) no Ubuntu Server 24.04.x LTS, nesse vídeo você vai aprender todos os comandos básicos para criar, iniciar, conectar, parar e atualizar as informações dos Container no Docker-CE referente a Processadores (CPU) e Memória RAM.
@@ -455,7 +384,3 @@ Conteúdo estudado nesse desafio:<br>
 #07_ Criando (Create) Contêiner (Container) com RAM e CPU Customizada no Docker-CE<br>
 
 [![CPU e RAM Docker-CE](http://img.youtube.com/vi//0.jpg)]( "CPU e RAM Docker-CE")
-
-Link da vídeo aula: 
-
-Link da documentação: https://github.com/vaamonde/ubuntu-2404/blob/main/04-container/02-cpu-ram-docker.md
