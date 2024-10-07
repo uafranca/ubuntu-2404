@@ -1,14 +1,10 @@
 #!/bin/bash
 # Autor: Robson Vaamonde
-# Site: www.procedimentosemti.com.br
-# Facebook: facebook.com/ProcedimentosEmTI
-# Facebook: facebook.com/BoraParaPratica
-# YouTube: youtube.com/BoraParaPratica
 # Data de criação: 06/08/2020
 # Data de atualização: 14/01/2021
 # Versão: 0.06
-# Testado e homologado para a versão do Ubuntu Server 18.04.x LTS x64
-# Kernel >= 4.15.x
+# Testado e homologado para a versão do Ubuntu Server 24.04 x LTS x64
+# Kernel >= 6.8.x
 # Testado e homologado para a versão do FusionInventory Server 9.5.x, Agent 2.5.x, GLPI 9.5.x
 #
 # O FusionInventory Agent é um agente multiplataforma genérico. Ele pode executar uma grande variedade de 
@@ -32,10 +28,6 @@
 # fusioninventory-injector: Ferramenta de Envio de Inventário Remoto do FusionInventory
 # 
 # Site Oficial do Projeto: http://fusioninventory.org/
-#
-# Vídeo de instalação do GNU/Linux Ubuntu Server 18.04.x LTS: https://www.youtube.com/watch?v=zDdCrqNhIXI
-# Vídeo de instalação do LAMP Server: https://www.youtube.com/watch?v=6EFUu-I3u4s&t
-# Vídeo de instalação do GLPI Help Desk: https://www.youtube.com/watch?v=6T9dMwJMeDw&t
 #
 # Variável da Data Inicial para calcular o tempo de execução do script (VARIÁVEL MELHORADA)
 # opção do comando date: +%T (Time)
@@ -77,17 +69,17 @@ GLPI="/var/www/html/glpi"
 # Exportando o recurso de Noninteractive do Debconf para não solicitar telas de configuração
 export DEBIAN_FRONTEND="noninteractive"
 #
-# Verificando se o usuário é Root, Distribuição é >=18.04 e o Kernel é >=4.15 <IF MELHORADO)
+# Verificando se o usuário é Root, Distribuição é >=24.04 e o Kernel é >=6.8 <IF MELHORADO)
 # [ ] = teste de expressão, && = operador lógico AND, == comparação de string, exit 1 = A maioria dos erros comuns na execução
 clear
-if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "18.04" ] && [ "$KERNEL" == "4.15" ]
+if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "24.04" ] && [ "$KERNEL" == "6.8" ]
 	then
 		echo -e "O usuário é Root, continuando com o script..."
-		echo -e "Distribuição é >= 18.04.x, continuando com o script..."
-		echo -e "Kernel é >= 4.15, continuando com o script..."
+		echo -e "Distribuição é >= 24.04.x, continuando com o script..."
+		echo -e "Kernel é >= 6.8, continuando com o script..."
 		sleep 5
 	else
-		echo -e "Usuário não é Root ($USUARIO) ou Distribuição não é >=18.04.x ($UBUNTU) ou Kernel não é >=4.15 ($KERNEL)"
+		echo -e "Usuário não é Root ($USUARIO) ou Distribuição não é >=24.04.x ($UBUNTU) ou Kernel não é >=6.8 ($KERNEL)"
 		echo -e "Caso você não tenha executado o script com o comando: sudo -i"
 		echo -e "Execute novamente o script para verificar o ambiente."
 		exit 1
@@ -127,7 +119,7 @@ echo -e "Verificando se o GLPI Help Desk está instalado, aguarde...\n"
 			sleep 5
 	fi
 #
-# Script de instalação do FusionInventory no GNU/Linux Ubuntu Server 18.04.x
+# Script de instalação do FusionInventory no GNU/Linux Ubuntu Server 24.04.x
 # opção do comando echo: -e (enable interpretation of backslash escapes), \n (new line)
 # opção do comando hostname: -I (all IP address)
 # opção do comando date: + (format), %d (day), %m (month), %Y (year 1970), %H (hour 24), %M (minute 60)
@@ -135,7 +127,7 @@ echo -e "Verificando se o GLPI Help Desk está instalado, aguarde...\n"
 echo -e "Início do script $0 em: `date +%d/%m/%Y-"("%H:%M")"`\n" &>> $LOG
 clear
 #
-echo -e "Instalação do FusionInventory no GNU/Linux Ubuntu Server 18.04.x\n"
+echo -e "Instalação do FusionInventory no GNU/Linux Ubuntu Server 24.04.x\n"
 echo -e "Após a instalação do FusionInventory acesse a URL: http://`hostname -I | cut -d' ' -f1`/glpi\n"
 echo -e "As configurações do FusionInventory e feita dentro do GLPI Help Desk\n"
 echo -e "Aguarde, esse processo demora um pouco dependendo do seu Link de Internet...\n"
