@@ -9,6 +9,7 @@ Portainer: é uma plataforma leve de entrega de serviços para aplicativos em co
 Cloud: Computação em nuvem é um termo coloquial para a disponibilidade sob demanda de recursos do sistema de computador, especialmente armazenamento de dados e capacidade de computação, sem o gerenciamento ativo direto do utilizador.
 
 Links Oficiais da Canonical, Ubuntu, Mint, VirtualBOX, Docker e Portainer:
+
 🔴 Canonical: https://canonical.com/<br>
 🔴 Linux Ubuntu: https://ubuntu.com/<br>
 🔴 Linux Mint: https://www.linuxmint.com/<br>
