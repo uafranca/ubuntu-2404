@@ -1,11 +1,4 @@
 #Autor: Robson Vaamonde<br>
-#Procedimentos em TI: http://procedimentosemti.com.br<br>
-#Bora para Prática: http://boraparapratica.com.br<br>
-#Robson Vaamonde: http://vaamonde.com.br<br>
-#Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
-#Facebook Bora para Prática: https://www.facebook.com/BoraParaPratica<br>
-#Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
-#YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 08/08/2024<br>
 #Data de atualização: 13/09/2024<br>
 #Versão: 0.03<br>
@@ -26,10 +19,6 @@ Conteúdo estudado nesse procedimento:<br>
 #03_ Desligando e reinicializando o servidor com init no Ubuntu Server<br>
 #04_ Desligando e reinicializando o servidor com reboot no Ubuntu Server<br>
 #05_ Desligando e reinicializando o servidor com shutdown no Ubuntu Server<br>
-
-[![Desligar Reiniciar Ubuntu Server](http://img.youtube.com/vi/NbA-k5-iLWA/0.jpg)](https://www.youtube.com/watch?v=NbA-k5-iLWA "Desligar e Reiniciar Ubuntu Server")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=NbA-k5-iLWA
 
 #01_ Desligando e reinicializando o servidor com halt no Ubuntu Server<br>
 ```bash
