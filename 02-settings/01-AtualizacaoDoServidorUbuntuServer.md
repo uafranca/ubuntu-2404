@@ -1,11 +1,4 @@
 #Autor: Robson Vaamonde<br>
-#Procedimentos em TI: http://procedimentosemti.com.br<br>
-#Bora para Prática: http://boraparapratica.com.br<br>
-#Robson Vaamonde: http://vaamonde.com.br<br>
-#Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
-#Facebook Bora para Prática: https://www.facebook.com/BoraParaPratica<br>
-#Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
-#YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 08/08/2024<br>
 #Data de atualização: 13/09/2024<br>
 #Versão: 0.03<br>
@@ -31,10 +24,6 @@ Conteúdo estudado nessa atualização:<br>
 #08_ Limpando o cache local do sources.list no Ubuntu Server<br>
 
 Apt-Get ou Apt A ferramenta de pacote avançada, é uma interface de usuário de software livre que funciona com bibliotecas centrais para lidar com a instalação e remoção de software no Debian e em distribuições Linux baseadas nele.
-
-[![Atualização Ubuntu Server](http://img.youtube.com/vi/B3FzV2bxjtw/0.jpg)](https://www.youtube.com/watch?v=B3FzV2bxjtw "Atualização Ubuntu Server")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=B3FzV2bxjtw
 
 #01_ Atualizando as Listas sources.list do Apt ou Apt-Get no Ubuntu Server<br>
 ```bash
