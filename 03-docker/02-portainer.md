@@ -1,11 +1,4 @@
 #Autor: Robson Vaamonde<br>
-#Procedimentos em TI: http://procedimentosemti.com.br<br>
-#Bora para Prática: http://boraparapratica.com.br<br>
-#Robson Vaamonde: http://vaamonde.com.br<br>
-#Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
-#Facebook Bora para Prática: https://www.facebook.com/BoraParaPratica<br>
-#Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
-#YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 10/08/2024<br>
 #Data de atualização: 01/10/2024<br>
 #Versão: 0.07<br>
@@ -53,10 +46,6 @@ O QUE É E PARA QUE SERVER O DOCKER COMPOSE: Docker Compose é uma ferramenta pa
 O QUE É E PARA QUE SERVER O DOCKER HUB: Docker Hub é um registro de contêiner criado para desenvolvedores e colaboradores de código aberto encontrarem, usarem e compartilharem suas imagens de contêiner. Com o Hub, os desenvolvedores podem hospedar repositórios públicos que podem ser usados ​​gratuitamente ou repositórios privados para equipes e empresas.
 
 O QUE É E PARA QUE SERVER O PORTAINER.IO: Portainer Community Edition (CE) é a nossa base. Com mais de meio milhão de usuários regulares, o CE é um poderoso conjunto de ferramentas de código aberto que permite criar e gerenciar facilmente contêineres no Docker, Docker Swarm, Kubernetes e Azure ACI.
-
-[![Portainer Install](http://img.youtube.com/vi/xe_ZZ_hrudw/0.jpg)](https://www.youtube.com/watch?v=xe_ZZ_hrudw "Portainer Isntall")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=xe_ZZ_hrudw
 
 #01_ Pesquisando o Container do Portainer.io CE no Docker Hub<br>
 ```bash
@@ -191,9 +180,9 @@ sudo journalctl -xeu portainer
 
 #09_ Liberando a Conexão de Entrada da Porta do Portainer no UFW do Ubuntu Server<br>
 ```bash
-#Liberando (allow) e Logando Tudo (LOG-ALL) da Sub-rede 172.16.1.0/24 (FROM) acessar o 
+#Liberando (allow) e Logando Tudo (LOG-ALL) da Sub-rede 192.168.1.0/24 (FROM) acessar o 
 #servidor (TO) do Portainer na porta (PORT) 9000 via protocolo TCP (PROTO TCP)
-sudo ufw limit log-all from 172.16.1.0/24 to 172.16.1.30 port 9000 proto tcp comment 'Liberando a sub-rede para acessar o Portainer'
+sudo ufw limit log-all from 192.168.1.0/24 to 192.168.1.12 port 9000 proto tcp comment 'Liberando a sub-rede para acessar o Portainer'
 
 #Verificando as Regras Detalhadas padrão do UFW em modo Verboso
 sudo ufw status verbose
@@ -212,9 +201,9 @@ firefox ou google chrome: http://endereço_ipv4_ubuntuserver:9000
 
 #Informações que serão solicitadas na configuração via Web do Portainer.io
 Please create the initial administrator user.
-  Username: vaamonde
-  Password: Vaamonde@2024
-  Confirm password: Vaamonde@2024
+  Username: uelio
+  Password: Almeid@001
+  Confirm password: Almeid@001
   (ON) Allow collection of anonymous statistics. You can find more information about this in our privacy policy.
 <Create User>
 
