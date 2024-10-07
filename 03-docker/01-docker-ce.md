@@ -1,11 +1,4 @@
 #Autor: Robson Vaamonde<br>
-#Procedimentos em TI: http://procedimentosemti.com.br<br>
-#Bora para Prática: http://boraparapratica.com.br<br>
-#Robson Vaamonde: http://vaamonde.com.br<br>
-#Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
-#Facebook Bora para Prática: https://www.facebook.com/BoraParaPratica<br>
-#Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
-#YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 10/08/2024<br>
 #Data de atualização: 30/09/2024<br>
 #Versão: 0.06<br>
@@ -54,10 +47,6 @@ O QUE É E PARA QUE SERVER O DOCKER CE: Docker é um conjunto de produtos de pla
 O QUE É E PARA QUE SERVER O DOCKER COMPOSE: Docker Compose é uma ferramenta para executar aplicativos de vários contêineres no Docker definidos usando o formato de arquivo Compose. Um arquivo Compose é usado para definir como um ou mais contêineres que compõem seu aplicativo são configurados. Depois de ter um arquivo Compose, você pode criar e iniciar seu aplicativo com um único comando: docker compose up.
 
 O QUE É E PARA QUE SERVER O DOCKER HUB: Docker Hub é um registro de contêiner criado para desenvolvedores e colaboradores de código aberto encontrarem, usarem e compartilharem suas imagens de contêiner. Com o Hub, os desenvolvedores podem hospedar repositórios públicos que podem ser usados ​​gratuitamente ou repositórios privados para equipes e empresas.
-
-[![Instalação do Docker-CE](http://img.youtube.com/vi/M_Dazb75OTc/0.jpg)](https://www.youtube.com/watch?v=M_Dazb75OTc "Instalação do Docker-CE")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=M_Dazb75OTc
 
 #01_ Instalando as Dependência do Docker-CE no Ubuntu Server<br>
 ```bash
@@ -147,7 +136,7 @@ sudo docker-compose version
 ```bash
 #verificando a interface e endereço IPv4 do Docker-CE
 sudo ifconfig docker0
-  docker0: 172.17.0.1/16 (255.255.0.0)
+  docker0: 192.168.0.1/16 (255.255.255.0)
 ```
 
 #10_ Adicionando o Usuário Local no Grupo Padrão do Docker-CE<br>
@@ -222,7 +211,7 @@ cat /etc/os-release
 apt update
 apt install net-tools iputils-ping traceroute
 ifconfig
-ping 172.17.0.1
+ping 192.168.1.12
 ping 8.8.8.8
 traceroute 8.8.8.8
 
