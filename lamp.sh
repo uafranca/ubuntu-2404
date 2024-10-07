@@ -1,14 +1,10 @@
 #!/bin/bash
 # Autor: Robson Vaamonde
-# Site: www.procedimentosemti.com.br
-# Facebook: facebook.com/ProcedimentosEmTI
-# Facebook: facebook.com/BoraParaPratica
-# YouTube: youtube.com/BoraParaPratica
 # Data de criação: 04/11/2018
 # Data de atualização: 24/06/2021
 # Versão: 0.15
-# Testado e homologado para a versão do Ubuntu Server 18.04.x LTS x64
-# Kernel >= 4.15.x
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
+# Kernel >= 6.8.x
 # Testado e homologado para a versão do Apache2 2.4.x, MySQL 5.7.x, PHP 7.2.x, Perl 5.26.x, Python 2.x e 3.x, PhpMyAdmin 4.6.x
 #
 # O Servidor HTTP Apache (do inglês Apache HTTP Server) ou Servidor Apache ou HTTP Daemon Apache ou somente 
@@ -65,8 +61,6 @@
 # Site oficial: https://www.python.org/
 # Site oficial: https://www.phpmyadmin.net/
 #
-# Vídeo de instalação do GNU/Linux Ubuntu Server 18.04.x LTS: https://www.youtube.com/watch?v=zDdCrqNhIXI
-#
 # Variável da Data Inicial para calcular o tempo de execução do script (VARIÁVEL MELHORADA)
 # opção do comando date: +%T (Time)
 HORAINICIAL=$(date +%T)
@@ -89,7 +83,7 @@ LOG="/var/log/$(echo $0 | cut -d'/' -f2)"
 #
 # Variáveis de configuração do usuário root e senha do MySQL para acesso via console e do PhpMyAdmin
 USER="root"
-PASSWORD="pti@2018"
+PASSWORD="Almeid@001"
 AGAIN=$PASSWORD
 #
 # Variáveis de configuração e liberação da conexão remota para o usuário Root do MySQL
@@ -110,23 +104,23 @@ WEBSERVER="apache2"
 # Exportando o recurso de Noninteractive do Debconf para não solicitar telas de configuração
 export DEBIAN_FRONTEND="noninteractive"
 #
-# Verificando se o usuário é Root, Distribuição é >=18.04 e o Kernel é >=4.15 <IF MELHORADO)
+# Verificando se o usuário é Root, Distribuição é >=24.04 e o Kernel é >=6.8 <IF MELHORADO)
 # [ ] = teste de expressão, && = operador lógico AND, == comparação de string, exit 1 = A maioria dos erros comuns na execução
 clear
-if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "18.04" ] && [ "$KERNEL" == "4.15" ]
+if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "24.04" ] && [ "$KERNEL" == "6.8" ]
 	then
 		echo -e "O usuário é Root, continuando com o script..."
-		echo -e "Distribuição é >= 18.04.x, continuando com o script..."
-		echo -e "Kernel é >= 4.15, continuando com o script..."
+		echo -e "Distribuição é >= 24.04.x, continuando com o script..."
+		echo -e "Kernel é >= 6.8, continuando com o script..."
 		sleep 5
 	else
-		echo -e "Usuário não é Root ($USUARIO) ou Distribuição não é >=18.04.x ($UBUNTU) ou Kernel não é >=4.15 ($KERNEL)"
+		echo -e "Usuário não é Root ($USUARIO) ou Distribuição não é >=24.04.x ($UBUNTU) ou Kernel não é >=6.8 ($KERNEL)"
 		echo -e "Caso você não tenha executado o script com o comando: sudo -i"
 		echo -e "Execute novamente o script para verificar o ambiente."
 		exit 1
 fi
 #
-# Script de instalação do LAMP-Server no GNU/Linux Ubuntu Server 18.04.x
+# Script de instalação do LAMP-Server no GNU/Linux Ubuntu Server 24.04.x
 # opção do comando echo: -e (enable) habilita interpretador, \n = (new line)
 # opção do comando hostname: -I (all IP address)
 # opção do comando sleep: 5 (seconds)
@@ -136,7 +130,7 @@ echo -e "Início do script $0 em: `date +%d/%m/%Y-"("%H:%M")"`\n" &>> $LOG
 clear
 #
 echo
-echo -e "Instalação do LAMP-SERVER no GNU/Linux Ubuntu Server 18.04.x\n"
+echo -e "Instalação do LAMP-SERVER no GNU/Linux Ubuntu Server 24.04.x\n"
 echo -e "APACHE (Apache HTTP Server) - Servidor de Hospedagem de Páginas Web - Porta 80/443"
 echo -e "Após a instalação do Apache2 acessar a URL: http://`hostname -I | cut -d ' ' -f1`/"
 echo -e "Testar a linguagem HTML acessando a URL: http://`hostname -I | cut -d ' ' -f1`/teste.html\n"
