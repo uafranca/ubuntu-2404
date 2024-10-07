@@ -1,11 +1,4 @@
 #Autor: Robson Vaamonde<br>
-#Procedimentos em TI: http://procedimentosemti.com.br<br>
-#Bora para Prática: http://boraparapratica.com.br<br>
-#Robson Vaamonde: http://vaamonde.com.br<br>
-#Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
-#Facebook Bora para Prática: https://www.facebook.com/BoraParaPratica<br>
-#Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
-#YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 25/09/2024<br>
 #Data de atualização: 26/09/2024<br>
 #Versão: 0.02<br>
@@ -52,14 +45,6 @@ O rsyslog é uma ferramenta de software de código aberto amplamente utilizada e
 TCP Wrapper é um sistema de rede ACL baseado em host, usado para filtrar acesso à rede a servidores de protocolo de Internet em sistemas operacionais do tipo Unix, como Linux ou BSD.
 
 **OBSERVAÇÃO IMPORTANTE: O VÍDEO DE SEGURANÇA DE FIREWALL DO UBUNTU SERVER ESTÁ NA VERSÃO 22.04.x LTS, O PROCEDIMENTO DE SEGURANÇA É O MESMO NA VERSÃO 24.04.x LTS, LEVANDO EM CONSIDERAÇÃO APENAS AS DEPENDÊNCIAS DE APLICATIVOS QUE TEM NESSA DOCUMENTAÇÃO, ESSE CURSO ESTÁ USANDO A INSTALAÇÃO MINIMIZADA (MINIMIZED) DO UBUNTU SERVER.**
-
-[![Firewall UFW](http://img.youtube.com/vi/PuahiojOEGA/0.jpg)](https://www.youtube.com/watch?v=PuahiojOEGA "Firewall UFW")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=PuahiojOEGA
-
-[![Segurança UFW](http://img.youtube.com/vi/130Xdztvm0I/0.jpg)](https://www.youtube.com/watch?v=130Xdztvm0I "Segurança UFW")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=130Xdztvm0I
 
 #01_ Instalando o Firewall UFW (Uncomplicated Firewall) no Ubuntu Server<br>
 ```bash
@@ -227,8 +212,8 @@ sudo apt update
 
 #11_ Limitando (LIMIT) e Logando Tudo (LOG-ALL) a Conexão de Entrada (INCOMING) do Protocolo SSH do UFW no Ubuntu Server<br>
 ```bash
-#Limitando (LIMIT) e Logando Tudo (LOG-ALL) da Sub-rede 172.16.1.0/24 (FROM) acessar o servidor (TO) do OpenSSH Server na porta (PORT) 22 via protocolo TCP (PROTO TCP)
-sudo ufw limit log-all from 172.16.1.0/24 to 172.16.1.30 port 22 proto tcp comment 'Limitando a sub-rede para acessar o OpenSSH Server'
+#Limitando (LIMIT) e Logando Tudo (LOG-ALL) da Sub-rede 192.168.1.0/24 (FROM) acessar o servidor (TO) do OpenSSH Server na porta (PORT) 22 via protocolo TCP (PROTO TCP)
+sudo ufw limit log-all from 192.168.1.0/24 to 192.168.1.12 port 22 proto tcp comment 'Limitando a sub-rede para acessar o OpenSSH Server'
 
 #Verificando as Regras Detalhadas padrão do UFW em modo Verboso
 sudo ufw status verbose
@@ -254,7 +239,7 @@ INSERT
 # alterar as informações na linha 10
 # OBSERVAÇÃO: ALTERAR A REDE CONFORME A SUA NECESSIDADE
 # mais informações veja o arquivo Hosts.Allow no Github:
-sshd: 172.16.1.0/24: spawn /bin/echo "$(date) | Serviço Remoto %d | Host Remoto %c | Porta Remota %r | Processo Local %p" >> /var/log/hosts-allow.log
+sshd: 192.168.1.0/24: spawn /bin/echo "$(date) | Serviço Remoto %d | Host Remoto %c | Porta Remota %r | Processo Local %p" >> /var/log/hosts-allow.log
 
 #salvar e sair do arquivo
 ESC SHIFT :x <Enter>
@@ -264,8 +249,8 @@ ESC SHIFT :x <Enter>
 ```bash
 Linux
   Terminal: Ctrl + Alt + T
-    ping 172.16.1.30
-    ssh vaamonde@172.16.1.30 (alterar o usuário e endereço IPv4 do seu servidor)
+    ping 192.168.1.12
+    ssh uelio@192.168.1.12 (alterar o usuário e endereço IPv4 do seu servidor)
 
 #verificando os Log's de acesso remoto do servidor Ubuntu
 #opção do comando cat: -n (number line)
