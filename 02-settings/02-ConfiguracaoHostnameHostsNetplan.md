@@ -1,11 +1,4 @@
 #Autor: Robson Vaamonde<br>
-#Procedimentos em TI: http://procedimentosemti.com.br<br>
-#Bora para Prática: http://boraparapratica.com.br<br>
-#Robson Vaamonde: http://vaamonde.com.br<br>
-#Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
-#Facebook Bora para Prática: https://www.facebook.com/BoraParaPratica<br>
-#Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
-#YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 08/08/2024<br>
 #Data de atualização: 13/09/2024<br>
 #Versão: 0.04<br>
@@ -38,10 +31,6 @@ FQDN, algumas vezes denominado nome de domínio absoluto, é um nome de domínio
 
 Hosts: pesquisa de tabela estática para nomes de host, é utilizado quando não temos servidores DNS (Domain Name System) e fazermos o apontamento diretamente no arquivo localizado em /etc/hosts.
 
-[![Endereço IPv4 Ubuntu Server](http://img.youtube.com/vi/sKn5fTy1OHI/0.jpg)](https://www.youtube.com/watch?v=sKn5fTy1OHI "Endereço IPv4 Ubuntu Server")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=sKn5fTy1OHI
-
 #01_ Alterando o nome FQDN (Fully Qualified Domain Name) do Ubuntu Server<br>
 ```bash
 #instalando o editor de Texto Vim, Git e o Python3
@@ -54,7 +43,7 @@ INSERT
 	
 	#alterar o nome de domínio FQDN na linha 1
 	#OBSERVAÇÃO IMPORTANTE: ALTERAR O NOME DO DOMÍNIO PARA O SEU CENÁRIO
-	ctnvaamonde.pti.intra
+	tfint-glpi.matriz.tfint
 
 #salvar e sair do arquivo
 ESC SHIFT : x <Enter>
@@ -68,9 +57,9 @@ INSERT
 	
 	#adicionar o nome de domínio e apelido nas linhas 2 e 3
 	#OBSERVAÇÃO IMPORTANTE: ALTERAR O NOME DO DOMÍNIO E APELIDO PARA O SEU CENÁRIO
-	127.0.0.1    localhost.pti.intra     localhost
-	127.0.1.1    ctnvaamonde.pti.intra   ctnvaamonde
-	172.16.1.30  ctnvaamonde.pti.intra   ctnvaamonde
+	127.0.0.1    localhost.matriz.tfint     localhost
+	127.0.1.1    tfint-glpi.matriz.tfint  	ctnvaamonde
+	192.168.1.12  tfint-glpi.matriz.tfint   ctnvaamonde
 
 #salvar e sair do arquivo
 ESC SHIFT : x <Enter>
@@ -168,7 +157,7 @@ network:
         addresses: [8.8.8.8, 8.8.4.4]
         #alterar a pesquisa de domínio para o seu cenário
         #OBSERVAÇÃO: configuração da pesquisa de Domínio dentro de Colchetes
-        search: [pti.intra]
+        search: [matriz.tfint]
   #fim do bloco de configuração do protocolo Ethernet versão 2
   version: 2
 ```
