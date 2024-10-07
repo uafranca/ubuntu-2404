@@ -1,15 +1,11 @@
 #!/bin/bash
 # Autor: Robson Vaamonde
-# Site: www.procedimentosemti.com.br
-# Facebook: facebook.com/ProcedimentosEmTI
-# Facebook: facebook.com/BoraParaPratica
-# YouTube: youtube.com/BoraParaPratica
 # Data de criação: 08/02/2019
 # Data de atualização: 20/05/2021
 # Versão: 0.08
-# Testado e homologado para a versão do Ubuntu Server 18.04.x LTS x64
-# Kernel >= 4.15.x
-# Testado e homologado para a versão do GLPI-9.5.x
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
+# Kernel >= 6.8.x
+# Testado e homologado para a versão do GLPI-10.0.x
 #
 # GLPI (sigla em francês: Gestionnaire Libre de Parc Informatique, ou "Free IT Equipment Manager" em inglês) é um sistema
 # gratuito de Gerenciamento de Ativos de TI, sistema de rastreamento de problemas e central de atendimento. Este software
@@ -44,10 +40,6 @@
 #
 # Site oficial: https://glpi-project.org/pt-br/
 #
-# Vídeo de instalação do GNU/Linux Ubuntu Server 18.04.x LTS: https://www.youtube.com/watch?v=zDdCrqNhIXI
-# Vídeo de configuração do OpenSSH no GNU/Linux Ubuntu Server 18.04.x LTS: https://www.youtube.com/watch?v=ecuol8Uf1EE&t
-# Vídeo de instalação do LAMP Server no Ubuntu Server 18.04.x LTS: https://www.youtube.com/watch?v=6EFUu-I3
-#
 # Variável da Data Inicial para calcular o tempo de execução do script (VARIÁVEL MELHORADA)
 # opção do comando date: +%T (Time)
 HORAINICIAL=$(date +%T)
@@ -73,7 +65,7 @@ LOG="/var/log/$(echo $0 | cut -d'/' -f2)"
 #
 # Declarando as variáveis para criação da Base de Dados do GLPI
 USER="root"
-PASSWORD="pti@2018"
+PASSWORD="Almeid@001"
 #
 # opção do comando create: create (criação), database (base de dados), base (banco de dados)
 # opção do comando create: create (criação), user (usuário), identified by (identificado por - senha do usuário), password (senha)
@@ -82,29 +74,29 @@ PASSWORD="pti@2018"
 # opões do comando GRANT: grant (permissão), all (todos privilégios), on (em ou na | banco ou tabela), *.* (todos os bancos/tabelas)
 # to (para), user@'%' (usuário @ localhost), identified by (identificado por - senha do usuário), password (senha)
 # opção do comando FLUSH: flush (atualizar), privileges (recarregar as permissões)
-DATABASE="CREATE DATABASE glpi;"
+DATABASE="CREATE DATABASE glpi_db;"
 USERDATABASE="CREATE USER 'glpi' IDENTIFIED BY 'glpi';"
 GRANTDATABASE="GRANT USAGE ON *.* TO 'glpi' IDENTIFIED BY 'glpi';"
 GRANTALL="GRANT ALL PRIVILEGES ON glpi.* TO 'glpi' IDENTIFIED BY 'glpi';"
 FLUSH="FLUSH PRIVILEGES;"
 #
 # Declarando a variável de download do GLPI (Link atualizado no dia 20/05/2021)
-RELEASE="https://github.com/glpi-project/glpi/releases/download/9.5.5/glpi-9.5.5.tgz"
+RELEASE="https://github.com/glpi-project/glpi/releases/download/10.0.16/glpi-10.0.16.tgz"
 #
 # Exportando o recurso de Noninteractive do Debconf para não solicitar telas de configuração
 export DEBIAN_FRONTEND="noninteractive"
 #
-# Verificando se o usuário é Root, Distribuição é >=18.04 e o Kernel é >=4.15 <IF MELHORADO)
+# Verificando se o usuário é Root, Distribuição é >=24.04 e o Kernel é >=6.8 <IF MELHORADO)
 # [ ] = teste de expressão, && = operador lógico AND, == comparação de string, exit 1 = A maioria dos erros comuns na execução
 clear
-if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "18.04" ] && [ "$KERNEL" == "4.15" ]
+if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "24.04" ] && [ "$KERNEL" == "6.8" ]
 	then
 		echo -e "O usuário é Root, continuando com o script..."
-		echo -e "Distribuição é >= 18.04.x, continuando com o script..."
-		echo -e "Kernel é >= 4.15, continuando com o script..."
+		echo -e "Distribuição é >= 24.04.x, continuando com o script..."
+		echo -e "Kernel é >= 6.8, continuando com o script..."
 		sleep 5
 	else
-		echo -e "Usuário não é Root ($USUARIO) ou Distribuição não é >=18.04.x ($UBUNTU) ou Kernel não é >=4.15 ($KERNEL)"
+		echo -e "Usuário não é Root ($USUARIO) ou Distribuição não é >=24.04.x ($UBUNTU) ou Kernel não é >=6.8 ($KERNEL)"
 		echo -e "Caso você não tenha executado o script com o comando: sudo -i"
 		echo -e "Execute novamente o script para verificar o ambiente."
 		exit 1
@@ -129,7 +121,7 @@ echo -n "Verificando as dependências do GLPI Help Desk, aguarde... "
             }
 		sleep 5
 #
-# Script de instalação do GLPI no GNU/Linux Ubuntu Server 18.04.x
+# Script de instalação do GLPI no GNU/Linux Ubuntu Server 24.04.x
 # opção do comando echo: -e (enable interpretation of backslash escapes), \n (new line)
 # opção do comando hostname: -I (all IP address)
 # opção do comando date: + (format), %d (day), %m (month), %Y (year 1970), %H (hour 24), %M (minute 60)
@@ -137,7 +129,7 @@ echo -e "Início do script $0 em: `date +%d/%m/%Y-"("%H:%M")"`\n" &>> $LOG
 clear
 #
 echo
-echo -e "Instalação do GLPI no GNU/Linux Ubuntu Server 18.04.x"
+echo -e "Instalação do GLPI no GNU/Linux Ubuntu Server 24.04.x"
 echo -e "Após a instalação do GLPI acessar a URL: http://`hostname -I | cut -d' ' -f1`/glpi/\n"
 echo -e "Aguarde, esse processo demora um pouco dependendo do seu Link de Internet...\n"
 sleep 5
