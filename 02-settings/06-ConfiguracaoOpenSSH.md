@@ -1,11 +1,4 @@
 #Autor: Robson Vaamonde<br>
-#Procedimentos em TI: http://procedimentosemti.com.br<br>
-#Bora para Prática: http://boraparapratica.com.br<br>
-#Robson Vaamonde: http://vaamonde.com.br<br>
-#Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
-#Facebook Bora para Prática: https://www.facebook.com/BoraParaPratica<br>
-#Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
-#YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 08/08/2024<br>
 #Data de atualização: 13/09/2024<br>
 #Versão: 0.04<br>
@@ -38,17 +31,7 @@ Site Oficial do PuTTY: https://www.putty.org/
 
 OpenSSH é um conjunto de utilitários de rede relacionado à segurança que provém a criptografia em sessões de comunicações em uma rede de computadores usando o protocolo SSH.
 
-[![OpenSSH Server](http://img.youtube.com/vi/-cforvm_oV0/0.jpg)](https://www.youtube.com/watch?v=-cforvm_oV0 "OpenSSH Server")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=-cforvm_oV0
-
 **OBSERVAÇÃO IMPORTANTE: CASO VOCÊ QUEIRA APLICAR A SEGURANÇA AVANÇADA NO SERVIÇO DO OPENSSH SERVER, VEJA O VÍDEO DE CONFIGURAÇÃO FEITA NO CURSO DO CA-CERTIFICATE, NESSE VÍDEO É HABILITADO OS RECURSOS DE CHAVE PRIVADA/PÚBLICA E CONFIGURADO OS LOGS DETALHADO DE CONEXÃO REMOTA.**
-
-[![OpenSSH Avançado](http://img.youtube.com/vi/Ri-_KMM361o/0.jpg)](https://www.youtube.com/watch?v=Ri-_KMM361o "OpenSSH Avançado")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=Ri-_KMM361o
-
-Link da documentação: https://github.com/vaamonde/ca-certificates/blob/main/01-ca/01-openssh.md
 
 #01_ Instalando o OpenSSH Server e Client no Ubuntu Server<br>
 ```bash
@@ -129,7 +112,7 @@ INSERT
 	#inserir as informações na linha: 10
 	#lista de serviço: lista de hosts: comando
 	#OBSERVAÇÃO: ALTERAR A REDE OU ENDEREÇO IPv4 CONFORME A SUA NECESSIDADE
-	sshd: 172.16.1.0/24
+	sshd: 192.168.1.12/24
 
 #salvar e sair do arquivo
 ESC SHIFT :x <Enter>
@@ -153,9 +136,9 @@ sudo vim /etc/ssh/sshd_config
 INSERT
 
 	#alterar a variável ListenAddress na linha: 27 
-	#ListenAddress 172.16.1.xxx para: SEU_ENDEREÇO_IPV4_DO_UBUNTU
+	#ListenAddress 192.168.1.xxx para: SEU_ENDEREÇO_IPV4_DO_UBUNTU
 	#OBSERVAÇÃO: ALTERAR O ENDEREÇO IPv4 CONFORME A SUA NECESSIDADE
-	ListenAddress 172.16.1.30
+	ListenAddress 192.168.1.12
 
 	#alterar a variável AllowUsers na linha: 77
 	#OBSERVAÇÃO: ALTERAR O USUÁRIO DE ACESSO CONFORME A SUA NECESSIDADE
@@ -178,7 +161,7 @@ INSERT
 
 	#alterar a linha 5: Servidor e Admin
 	#OBSERVAÇÃO: ALTERAR O BANNER CONFORME A SUA NECESSIDADE
-	Servidor: ctnvaamonde - Admin: Robson Vaamonde
+	Servidor: tfint-glpi - Admin: Uelio Almeida
 
 #salvar e sair do arquivo
 ESC SHIFT :x <Enter>
@@ -199,7 +182,7 @@ sudo journalctl -xeu ssh
 Windows
   Pesquisa do Windows
     Powershell
-      ssh vaamonde@172.16.1.30 (alterar para o endereço IPv4 do seu servidor)
+      ssh uelio@192.68.1.12 (alterar para o endereço IPv4 do seu servidor)
 
 #acessando o OpenSSH via PuTTY
 Windows
@@ -208,7 +191,7 @@ Windows
 
 Category
   Session
-    Host Name (or IP address): vaamonde@172.16.1.30 (alterar para o endereço IPv4 do seu servidor)
+    Host Name (or IP address): uelio@192.68.1.12 (alterar para o endereço IPv4 do seu servidor)
     Port: 22
     SSH: On
 <Open>
@@ -216,7 +199,7 @@ Category
 #acessando o OpenSSH via Terminal no Linux Mint
 Linux
   Terminal: Ctrl + Alt + T
-    ssh vaamonde@172.16.1.30 (alterar o usuário e endereço IPv4 do seu servidor)
+    ssh uelio@192.68.1.12 (alterar o usuário e endereço IPv4 do seu servidor)
 
 #verificando informações detalhadas dos usuários logados no Ubuntu Server
 #OBSERVAÇÃO IMPORTANTE 01: no comando: w ele mostra na primeira linhas as
