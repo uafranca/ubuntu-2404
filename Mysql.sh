@@ -1,8 +1,4 @@
 #Autor: Robson Vaamonde
-#Site: www.procedimentosemti.com.br
-#Facebook: facebook.com/ProcedimentosEmTI
-#Facebook: facebook.com/BoraParaPratica
-#YouTube: youtube.com/BoraParaPratica
 #Data de criação: 13/02/2019
 #Data de atualização: 14/05/2021
 #Versão: 0.08
@@ -25,8 +21,8 @@ sudo apt update && sudo apt install phpmyadmin (precisa do Apache2 e PHP)
 #Políticas de Segurança do MySQL
 sudo mysql_secure_installation
 1. Connecting to MySQL using a blank password (Press y|Y for Yes, any other key for No:) <Enter>
-2. New password root: vaamonde <Enter>
-3. Re-enter new password root: vaamonde <Enter>
+2. New password root: Almeid@001 <Enter>
+3. Re-enter new password root: Almeid@001 <Enter>
 4. Remove anonymous users? (Press y|Y for Yes, any other key for No:) y <Enter>
 5. Disallow root login remotely (Press y|Y for Yes, any other key for No:) <Enter>
 6. Remove test database and access to it? (Press y|Y for Yes, any other key for No:) <Enter>
@@ -37,8 +33,8 @@ sudo mysql_secure_installation
 sudo mysql_secure_installation
 1. Enter current password for root (enter for none): pti@2019 <Enter>
 2. Change the root password? [Y/n]: y <Enter>
-3. New password: vaamonde <Enter>
-4. Re-enter new password: vaamonde <Enter>
+3. New password: Almeid@001 <Enter>
+4. Re-enter new password: Almeid@001 <Enter>
 5. Remove anonymous users? [Y/n]: y <Enter>
 6. Disallow root login remotely? [Y/n]: n <Enter>
 7. Remove test database and access to it? [Y/n]: n <Enter>
@@ -78,40 +74,40 @@ sudo mysql -u root -p
 #Verificando os Bancos de Dados Existentes no SGBD do MySQL ou MariaDB
 SHOW DATABASES;
 
-#Criando o nosso Banco de Dados Vaamonde no SGBD do MySQL ou MariaDB
+#Criando o nosso Banco de Dados Uelio no SGBD do MySQL ou MariaDB
 #Verificando o nosso Banco de Dados criado no SGBD do MySQL ou MariaDB
-CREATE DATABASE vaamonde;
+CREATE DATABASE Uelio;
 SHOW DATABASES;
 
 #Permitindo que o usuário Root administre o servidor Remotamente do MySQL ou MariaDB
 #(opções do comando GRANT: grant (permissão), all (todos privilégios), on (em ou na | banco ou tabela), *.* (todos os bancos/tabelas))
 #(opções do comando GRANT: to (para), user@'%' (usuário @ localhost), identified by (identificado por - senha do usuário))
 #Obs: no MySQL versão >= 8.0.x o comando de permissão para o usuário root mudou:
-#Primeiro criar o usuário: CREATE USER 'vaamonde'@'localhost' IDENTIFIED WITH mysql_native_password BY 'vaamonde';
-#Segundo aplicar as permissões: GRANT ALL PRIVILEGES ON *.* TO 'vaamonde'@'localhost';
+#Primeiro criar o usuário: CREATE USER 'uelio'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Almeid@001';
+#Segundo aplicar as permissões: GRANT ALL PRIVILEGES ON *.* TO 'uelio'@'localhost';
 #Terceiro aplicar todas as mudanças: FLUSH PRIVILEGES;
-GRANT ALL ON *.* TO root@'%' IDENTIFIED BY 'vaamonde'
+GRANT ALL ON *.* TO root@'%' IDENTIFIED BY 'Almeid@001'
 
 #Criando usuários no SGBD do MySQL ou MariaDB
 #(opções do comando CREATE: create (criação), user (usuário), identified by (identificado por - senha do usuário))
-CREATE USER 'vaamonde' IDENTIFIED BY 'vaamonde';
+CREATE USER 'uelio' IDENTIFIED BY 'Almeid@001';
 
-#Aplicando as permissões de acesso ao Banco de Dados Vaamonde no SGBD do MySQL ou MariaDB
+#Aplicando as permissões de acesso ao Banco de Dados Uelio no SGBD do MySQL ou MariaDB
 #(opções do comando GRANT: grant (permissão), usage (uso em banco ou tabela), on (em ou na | banco ou tabela), *.* (todos os bancos/tabelas))
-#(opções do comando GRANT: to (para), 'vaamonde' (usuário), identified by (identificado por - senha do usuário))
-#(opções do comando GRANT: all (todos privilégios), privileges (privilégios), on (em ou na | banco ou tabela), vaamonde.* (banco/tabelas), to (para) 'vaamonde' (usuário))
-GRANT USAGE ON *.* TO 'vaamonde' IDENTIFIED BY 'vaamonde';
-GRANT ALL PRIVILEGES ON vaamonde.* TO 'vaamonde';
+#(opções do comando GRANT: to (para), 'uelio' (usuário), identified by (identificado por - senha do usuário))
+#(opções do comando GRANT: all (todos privilégios), privileges (privilégios), on (em ou na | banco ou tabela), uelio.* (banco/tabelas), to (para) 'uelio' (usuário))
+GRANT USAGE ON *.* TO 'uelio' IDENTIFIED BY 'Almeid@001';
+GRANT ALL PRIVILEGES ON uelio.* TO 'uelio';
 FLUSH PRIVILEGES;
 EXIT
 
-##Acessando o SGBD do MySQL ou MariaDB com o usuário Vaamonde
+##Acessando o SGBD do MySQL ou MariaDB com o usuário Uelio
 #(opções do comando mysql: -u user | -p password)
-mysql -u vaamonde -p
+mysql -u uelio -p
 
-#Utilizando o Banco e Dados Vaamonde no SGBD do MySQL ou MariaDB
+#Utilizando o Banco e Dados Uelio no SGBD do MySQL ou MariaDB
 SHOW DATABASES;
-USE vaamonde;
+USE uelio;
 
 #Criando a Tabela Alunos e Verificando suas Informações no SGBD do MySQL ou MariaDB
 CREATE TABLE alunos(
@@ -143,9 +139,9 @@ SHOW TABLES;
 #Utilizando o conceito do CRUD (Create INSERT, Read SELECT, Update UPDATE and Delete DELETE) no SGBD MySQL ou MariaDB
 
 #Inserindo dados dentro da Tabela Alunos no SGBD do MySQL ou MariaDB
-INSERT INTO alunos VALUES ('000001', 'Robson Vaamonde', 'Guarulhos');
-INSERT INTO alunos VALUES ('000002', 'Leandro Ramos', 'São Paulo');
-INSERT INTO alunos VALUES ('000003', 'José de Assis', 'São Paulo');
+INSERT INTO alunos VALUES ('000001', 'Uelio Almeida', 'São Paulo');
+INSERT INTO alunos VALUES ('000002', 'Karen Franca', 'São Paulo');
+INSERT INTO alunos VALUES ('000003', 'Júlia Franca', 'São Paulo');
 SELECT * FROM alunos;
 
 #Inserindo dados dentro da Tabela Cursos no SGBD do MySQL ou MariaDB
@@ -209,5 +205,5 @@ SHOW TABLES;
 
 #Deletando um Banco de Dados no SGBD do MySQL ou MariaDB
 SHOW DATABASES;
-DROP DATABASE vaamonde;
+DROP DATABASE Uelio;
 SHOW DATABASES;
