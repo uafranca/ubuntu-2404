@@ -36,10 +36,6 @@ Conteúdo estudado nessa instalação:<br>
 #05_ Instalação e Configuração do Ubuntu Server 24.04.x LTS<br>
 #06_ Acessando o Ubuntu Server pela primeira vez<br>
 
-[![Instalação Ubuntu Server](http://img.youtube.com/vi/p4f6a_-yM_8/0.jpg)](https://www.youtube.com/watch?v=p4f6a_-yM_8 "Instalação Ubuntu Server")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=p4f6a_-yM_8
-
 # SEGUNDA ETAPA: CONFIGURAÇÕES BÁSICAS DO UBUNTU SERVER 24.04
 
 ## **🖥️ Configurações BÁSICAS do Ubuntu Server 24.04.x LTS (Noble Numbat) Essentials ANTES DE CONTINUAR O CURSO 🤩🤩**
@@ -53,10 +49,6 @@ Seguir os próximos vídeos de:<br>
 04 - Desligar e Reiniciar o Servidor<br>
 05 - Habilitando o Ubuntu Pro<br>
 06 - Configuração do OpenSSH Server<br>
-
-[![Configuração Básica](http://img.youtube.com/vi/dQJhDoCQgNI/0.jpg)](https://www.youtube.com/watch?v=dQJhDoCQgNI "Configuração Básica")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=dQJhDoCQgNI
 
 ## **🤩🤩 Atualização do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
@@ -75,8 +67,6 @@ Conteúdo estudado nessa atualização:<br>
 #08_ Limpando o cache local do sources.list no Ubuntu Server<br>
 
 **OBSERVAÇÃO IMPORTANTE: O VÍDEO DAS ATUALIZAÇÕES DO UBUNTU SERVER ESTÁ NA VERSÃO 22.04.x LTS, O PROCEDIMENTO DE ATUALIZAR É O MESMO NA VERSÃO 24.04.x LTS, LEVANDO EM CONSIDERAÇÃO APENAS AS DEPENDÊNCIAS DE APLICATIVOS QUE TEM NESSA DOCUMENTAÇÃO, ESSE CURSO ESTÁ USANDO A INSTALAÇÃO MINIMIZADA (MINIMIZED) DO UBUNTU SERVER.**
-
-[![Atualização Ubuntu Server](http://img.youtube.com/vi/B3FzV2bxjtw/0.jpg)](https://www.youtube.com/watch?v=B3FzV2bxjtw "Atualização Ubuntu Server")
 
 ## **🤩🤩 Configurando a Placa de Rede do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
@@ -102,10 +92,6 @@ Conteúdo estudado nessa configuração:<br>
 
 **OBSERVAÇÃO IMPORTANTE: O VÍDEO DAS CONFIGURAÇÕES DA PLACA DE REDE DO UBUNTU SERVER ESTÁ NA VERSÃO 22.04.x LTS, AS CONFIGURAÇÕES É A MESMA NA VERSÃO 24.04.x LTS, LEVANDO EM CONSIDERAÇÃO APENAS AS DEPENDÊNCIAS DE APLICATIVOS QUE TEM NESSA DOCUMENTAÇÃO, ESSE CURSO ESTÁ USANDO A INSTALAÇÃO MINIMIZADA (MINIMIZED) DO UBUNTU SERVER.**
 
-[![Endereço IPv4 Ubuntu Server](http://img.youtube.com/vi/sKn5fTy1OHI/0.jpg)](https://www.youtube.com/watch?v=sKn5fTy1OHI "Endereço IPv4 Ubuntu Server")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=sKn5fTy1OHI
-
 ## **🤩🤩 Configurando a Data e Hora do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
 Vídeo de configuração da Data e Hora do Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para configurar a localidade (Locale), Zona de Horário (Timezone), Sincronismo de Data Hora com o Protocolo NTP (Network Time Protocol) e configurações manuais de Data, Hora e sincronismo com o Hardware.
@@ -130,10 +116,6 @@ Conteúdo estudado nessa configuração:<br>
 
 **OBSERVAÇÃO IMPORTANTE: O VÍDEO DAS CONFIGURAÇÕES DO LOCALE E TIMEZONE DO UBUNTU SERVER ESTÁ NA VERSÃO 22.04.x LTS, AS CONFIGURAÇÕES É A MESMA NA VERSÃO 24.04.x LTS, LEVANDO EM CONSIDERAÇÃO APENAS AS DEPENDÊNCIAS DE APLICATIVOS QUE TEM NESSA DOCUMENTAÇÃO, ESSE CURSO ESTÁ USANDO A INSTALAÇÃO MINIMIZADA (MINIMIZED) DO UBUNTU SERVER.**
 
-[![Data e Hora Ubuntu Server](http://img.youtube.com/vi/Szt6egOsKxE/0.jpg)](https://www.youtube.com/watch?v=Szt6egOsKxE "Data e Hora Ubuntu Server")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=Szt6egOsKxE
-
 ## **🤩🤩 Desligando e Reiniciando o Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
 Vídeo de desligar e reiniciar o Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para desligar ou reiniciar o servidor de forma correta, vai aprender a agendar um agendamento de desligamento ou reinicialização do sistema.
@@ -146,10 +128,6 @@ Conteúdo estudado nesse procedimento:<br>
 #05_ Desligando e reinicializando o servidor com shutdown no Ubuntu Server<br>
 
 **OBSERVAÇÃO IMPORTANTE: O VÍDEO DE DESLIGAR E REINICIAR DO UBUNTU SERVER ESTÁ NA VERSÃO 22.04.x LTS, AS FORMAS DE DESLIGAR E REINICIAR É A MESMA NA VERSÃO 24.04.x LTS, LEVANDO EM CONSIDERAÇÃO APENAS AS DEPENDÊNCIAS DE APLICATIVOS QUE TEM NESSA DOCUMENTAÇÃO, ESSE CURSO ESTÁ USANDO A INSTALAÇÃO MINIMIZADA (MINIMIZED) DO UBUNTU SERVER.**
-
-[![Desligar Reiniciar Ubuntu Server](http://img.youtube.com/vi/NbA-k5-iLWA/0.jpg)](https://www.youtube.com/watch?v=NbA-k5-iLWA "Desligar e Reiniciar Ubuntu Server")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=NbA-k5-iLWA
 
 ## **🤩🤩 Habilitando a Licença Ubuntu Pro Free no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
@@ -169,10 +147,6 @@ Conteúdo estudado nessa configuração:<br>
 #09_ Atualizando sistema com o suporte do Ubuntu Pro no Ubuntu Server<br>
 
 **OBSERVAÇÃO IMPORTANTE: O VÍDEO DE HABILITAR O UBUNTU PRO NO UBUNTU SERVER ESTÁ NA VERSÃO 22.04.x LTS, AS CONFIGURAÇÕES É A MESMA NA VERSÃO 24.04.x LTS, LEVANDO EM CONSIDERAÇÃO APENAS AS DEPENDÊNCIAS DE APLICATIVOS QUE TEM NESSA DOCUMENTAÇÃO, ESSE CURSO ESTÁ USANDO A INSTALAÇÃO MINIMIZADA (MINIMIZED) DO UBUNTU SERVER.**
-
-[![Ubuntu Pro Free](http://img.youtube.com/vi/SW9JzwjGdkM/0.jpg)](https://www.youtube.com/watch?v=SW9JzwjGdkM "Ubuntu Pro Free")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=SW9JzwjGdkM
 
 ## **🤩🤩 Configuração do OpenSSH Server no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
@@ -194,15 +168,7 @@ Conteúdo estudado nessa configuração:<br>
 
 **OBSERVAÇÃO IMPORTANTE: O VÍDEO DAS CONFIGURAÇÕES DO OPENSSH SERVER DO UBUNTU SERVER ESTÁ NA VERSÃO 22.04.x LTS, AS CONFIGURAÇÕES É A MESMA NA VERSÃO 24.04.x LTS, LEVANDO EM CONSIDERAÇÃO APENAS AS DEPENDÊNCIAS DE APLICATIVOS QUE TEM NESSA DOCUMENTAÇÃO, ESSE CURSO ESTÁ USANDO A INSTALAÇÃO MINIMIZADA (MINIMIZED) DO UBUNTU SERVER.**
 
-[![OpenSSH Server](http://img.youtube.com/vi/-cforvm_oV0/0.jpg)](https://www.youtube.com/watch?v=-cforvm_oV0 "OpenSSH Server")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=-cforvm_oV0
-
 **OBSERVAÇÃO IMPORTANTE: CASO VOCÊ QUEIRA APLICAR A SEGURANÇA AVANÇADA NO SERVIÇO DO OPENSSH SERVER, VEJA O VÍDEO DE CONFIGURAÇÃO FEITA NO CURSO DO CA-CERTIFICATE, NESSE VÍDEO É HABILITADO OS RECURSOS DE CHAVE PRIVADA/PÚBLICA E CONFIGURADO OS LOGS DETALHADO DE CONEXÃO REMOTA.**
-
-[![OpenSSH Avançado](http://img.youtube.com/vi/Ri-_KMM361o/0.jpg)](https://www.youtube.com/watch?v=Ri-_KMM361o "OpenSSH Avançado")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=Ri-_KMM361o
 
 ## **🤩🤩 Desabilitando o SNAPd e Cloud-Init no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
@@ -223,10 +189,6 @@ Conteúdo estudado nessa configuração:<br>
 #06_ Prevenção contra instalação e inicialização do Cloud-Init no Ubuntu Server<br>
 #07_ Verificando os Status de Serviços Rodando no Ubuntu Server<br>
 #08_ Reiniciando o Ubuntu Server para Aplicar as mudanças<br>
-
-[![SNAPd e Cloud-Init](http://img.youtube.com/vi/dWoiPeTGFFE/0.jpg)](https://www.youtube.com/watch?v=dWoiPeTGFFE "SNAPd e Cloud-Init")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=dWoiPeTGFFE
 
 ## **🖥️ Monitoramento do Desempenho de Hardware do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
@@ -251,10 +213,6 @@ Conteúdo estudado nessa configuração:<br>
 #06_ Verificando o Desempenho Disco HD (Hard-Disk) Ubuntu Server<br>
 #07_ Verificando o Desempenho Rede (Network) Ubuntu Server<br>
 #08_ Estressando o Servidor Ubuntu Server para verificar as mudanças no Gráfico<br>
-
-[![Monitoramento](http://img.youtube.com/vi/fstVt6vOrYc/0.jpg)](https://www.youtube.com/watch?v=fstVt6vOrYc "Monitoramento")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=fstVt6vOrYc
 
 ## **🖥️ Habilitando a Segurança do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
@@ -285,14 +243,6 @@ Conteúdo estudado nessa implementação:<br>
 #10_ Melhorando a Segurança e Logs Detalhados do TCPWrappers no Ubuntu Server<br>
 #11_ Testando novamente a conexão com o OpenSSH e Certificado no Ubuntu Server<br>
 
-[![Segurança UFW](http://img.youtube.com/vi/130Xdztvm0I/0.jpg)](https://www.youtube.com/watch?v=130Xdztvm0I "Segurança UFW")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=130Xdztvm0I
-
-[![Firewall UFW](http://img.youtube.com/vi/PuahiojOEGA/0.jpg)](https://www.youtube.com/watch?v=PuahiojOEGA "Firewall UFW")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=PuahiojOEGA
-
 # TERCEIRA ETAPA: INSTALAÇÃO E CONFIGURAÇÃO DO DOCKER-CE E PORTAINER
 
 ## **🤩🤩 Instalação e Configuração do Docker-CE no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
@@ -322,10 +272,6 @@ Conteúdo estudado nesse desafio:<br>
 #14_ Verificando as Imagens dos Containers no Docker-CE<br>
 #15_ Limpando todas as Imagens, Containers, Volumes e Redes no Docker-CE<br>
 
-[![Instalação do Docker-CE](http://img.youtube.com/vi/M_Dazb75OTc/0.jpg)](https://www.youtube.com/watch?v=M_Dazb75OTc "Instalação do Docker-CE")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=M_Dazb75OTc
-
 ## **🤩🤩 Instalação e Configuração do Portainer-CE no Docker-CE do Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
 Vídeo de instalação e configuração do Portainer.io (Community Edition) no Ubuntu Server 24.04.x LTS no Oracle VirtualBOX, nesse vídeo você vai aprender todos os procedimentos para instalar e configurar o sistema de Gerenciamento de Containers Portainer.io (Community Edition) em nosso servidor para criar e gerenciar os containers e micro-serviços de forma fácil.
@@ -343,10 +289,6 @@ Conteúdo estudado nesse desafio:<br>
 #08_ Verificando o Serviço e Versão do Portainer.io no Ubuntu Server<br>
 #09_ Liberando a Conexão de Entrada da Porta do Portainer no UFW do Ubuntu Server<br>
 #10_ Acessando e configurando o Portainer.io via navegador<br>
-
-[![Instalação do Portainer-CE](http://img.youtube.com/vi/xe_ZZ_hrudw/0.jpg)](https://www.youtube.com/watch?v=xe_ZZ_hrudw "Instalação do Portainer-CE")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=xe_ZZ_hrudw
 
 # QUARTA ETAPA: COMANDO BÁSICOS DO DOCKER-CE E PORTAINER
 
@@ -366,10 +308,6 @@ Conteúdo estudado nesse desafio:<br>
 #09_ Criando (Create), Renomeando (Rename) e Executando (Run) um novo Contêiner (Container) no Docker-CE<br>
 #10_ Listando Imagens (Images), Histórico (History), Inspecionando (Inspect) e Removendo (RM) no Docker-CE<br>
 
-[![Básico Docker-CE](http://img.youtube.com/vi//0.jpg)]( "Básico Docker-CE")
-
-Link da vídeo aula: 
-
 ## **🤩🤩 Comandos Básicos de CPU e RAM do Docker-CE no Ubuntu Server 24.04.x LTS Projeto Bora para Prática 🤩🤩**
 
 Vídeo de comandos básicos de CPU e RAM do Docker-CE (Community Edition) no Ubuntu Server 24.04.x LTS, nesse vídeo você vai aprender todos os comandos básicos para criar, iniciar, conectar, parar e atualizar as informações dos Container no Docker-CE referente a Processadores (CPU) e Memória RAM.
@@ -382,5 +320,3 @@ Conteúdo estudado nesse desafio:<br>
 #05_ Atualizando (Update) as Configurações de RAM e CPU dos Contêiner (Container) do Ubuntu (Image) no Docker-CE<br>
 #06_ Atualizando (Update) as Configurações de RAM e CPU dos Contêiner (Container) em Execução (Run) no Docker-CE<br>
 #07_ Criando (Create) Contêiner (Container) com RAM e CPU Customizada no Docker-CE<br>
-
-[![CPU e RAM Docker-CE](http://img.youtube.com/vi//0.jpg)]( "CPU e RAM Docker-CE")
