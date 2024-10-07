@@ -1,13 +1,4 @@
 Autor: Robson Vaamonde<br>
-Procedimentos em TI: http://procedimentosemti.com.br<br>
-Bora para Prática: http://boraparapratica.com.br<br>
-Robson Vaamonde: http://vaamonde.com.br<br>
-Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
-Facebook Bora para Prática: https://www.facebook.com/BoraParaPratica<br>
-Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
-YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
-LinkedIn Robson Vaamonde: https://www.linkedin.com/in/robson-vaamonde-0b029028/<br>
-Github Procedimentos em TI: https://github.com/vaamonde<br>
 Data de criação: 08/08/2024<br>
 Data de atualização: 18/09/2024<br>
 Versão: 0.03<br>
@@ -28,10 +19,6 @@ Conteúdo estudado nessa instalação:<br>
 #05_ Instalação e Configuração do Ubuntu Server 24.04.x LTS<br>
 #06_ Acessando o Ubuntu Server pela primeira vez<br>
 
-[![Instalação Ubuntu Server](http://img.youtube.com/vi/p4f6a_-yM_8/0.jpg)](https://www.youtube.com/watch?v=p4f6a_-yM_8 "Instalação Ubuntu Server")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=p4f6a_-yM_8
-
 #01_ Download da ISO do Ubuntu Server 24.04.x LTS<br>
 ```bash
 A) Link de download do Ubuntu Server: https://releases.ubuntu.com/24.04/
@@ -43,8 +30,6 @@ D) Tipo de instalação: DVD Image (ISO) Installer
 #02_ Criação da Máquina Virtual no Oracle VirtualBOX<br>
 ```bash
 A) Link de download do Oracle VirtualBOX: https://www.virtualbox.org/wiki/Downloads
-B) Vídeo de instalação do VirtualBOX no Linux Mint: https://www.youtube.com/watch?v=yTihvAaaxpU
-C) Atualização do VirtualBOX no Linux Mint: https://www.youtube.com/watch?v=DU47PLFSxpA
 
 Oracle VirtualBOX Gerenciado (versão 7.x ou superior).
 
