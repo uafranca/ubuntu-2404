@@ -1,11 +1,4 @@
 #Autor: Robson Vaamonde<br>
-#Procedimentos em TI: http://procedimentosemti.com.br<br>
-#Bora para Prática: http://boraparapratica.com.br<br>
-#Robson Vaamonde: http://vaamonde.com.br<br>
-#Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
-#Facebook Bora para Prática: https://www.facebook.com/BoraParaPratica<br>
-#Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
-#YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 13/09/2024<br>
 #Data de atualização: 25/09/2024<br>
 #Versão: 0.05<br>
@@ -39,10 +32,6 @@ A RAM (Random Access Memory), ou Memória de Acesso Aleatório, é um tipo de me
 HD, sigla para "Hard Disk" ou "Hard Disk Drive" (Disco Rígido em português), é um dispositivo de armazenamento de dados usado em computadores e outros dispositivos eletrônicos. Ele armazena permanentemente os dados, mesmo quando o computador está desligado. O HD é um dos métodos mais tradicionais de armazenamento, sendo usado para guardar sistemas operacionais, aplicativos, documentos, fotos, vídeos, e qualquer outro tipo de dado digital.
 
 Uma Interface de Rede é um componente de hardware ou software que conecta um dispositivo, como um computador, servidor, ou roteador, a uma rede, permitindo que ele se comunique e troque dados com outros dispositivos na mesma rede ou em redes externas. A interface de rede é essencial para o funcionamento de redes de computadores, permitindo a transferência de dados entre dispositivos conectados.
-
-[![Monitoramento](http://img.youtube.com/vi/fstVt6vOrYc/0.jpg)](https://www.youtube.com/watch?v=fstVt6vOrYc "Monitoramento")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=fstVt6vOrYc 
 
 #01_ Instalando os aplicativos de monitoramento no Ubuntu Server<br>
 ```bash
@@ -687,5 +676,5 @@ sudo stress-ng --hdd 8 --io 8 --vm 18 --cpu 8 --timeout 900s
 
 #fazendo uma busca no disk utilizando o comando find
 #opção do comando find: / (root device), -name (Base of file name), * (Qualquer coisa)
-sudo find / -name vaamonde*
+sudo find / -name uelio*
 ```
