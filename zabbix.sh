@@ -1,15 +1,11 @@
 #!/bin/bash
 # Autor: Robson Vaamonde
-# Site: www.procedimentosemti.com.br
-# Facebook: facebook.com/ProcedimentosEmTI
-# Facebook: facebook.com/BoraParaPratica
-# YouTube: youtube.com/BoraParaPratica
 # Data de criação: 25/07/2020
 # Data de atualização: 09/06/2021
 # Versão: 0.04
-# Testado e homologado para a versão do Ubuntu Server 18.04.x LTS x64
-# Kernel >= 4.15.x
-# Testado e homologado para a versão do Zabbix 5.2.x 
+# Testado e homologado para a versão do Ubuntu Server 24.04.x LTS x64
+# Kernel >= 6.8.x
+# Testado e homologado para a versão do Zabbix 7.0.x 
 #
 # O Zabbix é uma ferramenta de software de monitoramento de código aberto para diversos componentes de TI, 
 # incluindo redes, servidores, máquinas virtuais e serviços em nuvem. O Zabbix fornece métricas de monitoramento, 
@@ -17,7 +13,7 @@
 # recursos de monitoramento e alertas.
 #
 # Informações que serão solicitadas na configuração via Web do Zabbix Server
-# Welcome to Zabbix 5.2: 
+# Welcome to Zabbix 7.0: 
 #   Default language: English (en_US): Next step;
 # Check of pre-requisites: Next step;
 # Configure DB connection:
@@ -42,8 +38,6 @@
 #
 # Site Oficial do Projeto: https://www.zabbix.com/
 #
-# Vídeo de instalação do GNU/Linux Ubuntu Server 18.04.x LTS: https://www.youtube.com/watch?v=zDdCrqNhIXI
-# Vídeo de instalação do LAMP Server no Ubuntu Server 18.04.x LTS: https://www.youtube.com/watch?v=6EFUu-I3u4s
 #
 # Variável da Data Inicial para calcular o tempo de execução do script (VARIÁVEL MELHORADA)
 # opção do comando date: +%T (Time)
@@ -69,7 +63,7 @@ LOG="/var/log/$(echo $0 | cut -d'/' -f2)"
 #
 # Declarando as variáveis para criação da Base de Dados do Zabbix Server
 USER="root"
-PASSWORD="pti@2018"
+PASSWORD="Almeid@001"
 #
 # opção do comando create: create (criação), database (base de dados), base (banco de dados), character set (conjunto de caracteres), 
 # collate (comparar)
@@ -87,22 +81,22 @@ GRANTALL="GRANT ALL PRIVILEGES ON zabbix.* TO 'zabbix' IDENTIFIED BY 'zabbix';"
 FLUSH="FLUSH PRIVILEGES;"
 #
 # Declarando as variáveis para o download do Zabbix Server (Link atualizado no dia 09/06/2021)
-ZABBIX="https://repo.zabbix.com/zabbix/5.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_5.4-1%2Bubuntu18.04_all.deb"
+ZABBIX="https://repo.zabbix.com/zabbix/7.0/ubuntu-arm64/pool/main/z/zabbix-release/zabbix-release_latest%2Bubuntu24.04_all.deb"
 #
 # Exportando o recurso de Noninteractive do Debconf para não solicitar telas de configuração
 export DEBIAN_FRONTEND="noninteractive"
 #
-# Verificando se o usuário é Root, Distribuição é >=18.04 e o Kernel é >=4.15 <IF MELHORADO)
+# Verificando se o usuário é Root, Distribuição é >=24.04 e o Kernel é >=6.8 <IF MELHORADO)
 # [ ] = teste de expressão, && = operador lógico AND, == comparação de string, exit 1 = A maioria dos erros comuns na execução
 clear
-if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "18.04" ] && [ "$KERNEL" == "4.15" ]
+if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "24.04" ] && [ "$KERNEL" == "6.8" ]
 	then
 		echo -e "O usuário é Root, continuando com o script..."
-		echo -e "Distribuição é >= 18.04.x, continuando com o script..."
-		echo -e "Kernel é >= 4.15, continuando com o script..."
+		echo -e "Distribuição é >= 24.04.x, continuando com o script..."
+		echo -e "Kernel é >= 6.8, continuando com o script..."
 		sleep 5
 	else
-		echo -e "Usuário não é Root ($USUARIO) ou Distribuição não é >=18.04.x ($UBUNTU) ou Kernel não é >=4.15 ($KERNEL)"
+		echo -e "Usuário não é Root ($USUARIO) ou Distribuição não é >=24.04.x ($UBUNTU) ou Kernel não é >=6.8 ($KERNEL)"
 		echo -e "Caso você não tenha executado o script com o comando: sudo -i"
 		echo -e "Execute novamente o script para verificar o ambiente."
 		exit 1
@@ -127,7 +121,7 @@ echo -n "Verificando as dependências do Zabbix, aguarde... "
             }
 		sleep 5
 #
-# Script de instalação do Zabbix Server no GNU/Linux Ubuntu Server 18.04.x
+# Script de instalação do Zabbix Server no GNU/Linux Ubuntu Server 24.04.x
 # opção do comando echo: -e (enable interpretation of backslash escapes), \n (new line)
 # opção do comando hostname: -I (all IP address)
 # opção do comando date: + (format), %d (day), %m (month), %Y (year 1970), %H (hour 24), %M (minute 60)
@@ -136,7 +130,7 @@ echo -e "Início do script $0 em: `date +%d/%m/%Y-"("%H:%M")"`\n" &>> $LOG
 #
 clear
 echo
-echo -e "Instalação do Zabbix Server no GNU/Linux Ubuntu Server 18.04.x\n"
+echo -e "Instalação do Zabbix Server no GNU/Linux Ubuntu Server 24.04.x\n"
 echo -e "Após a instalação do Zabbix Server acesse a URL: http://`hostname -I | cut -d' ' -f1`/zabbix/"
 echo -e "Aguarde, esse processo demora um pouco dependendo do seu Link de Internet...\n"
 sleep 5
