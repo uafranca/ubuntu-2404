@@ -1,11 +1,4 @@
 #Autor: Robson Vaamonde<br>
-#Procedimentos em TI: http://procedimentosemti.com.br<br>
-#Bora para Prática: http://boraparapratica.com.br<br>
-#Robson Vaamonde: http://vaamonde.com.br<br>
-#Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
-#Facebook Bora para Prática: https://www.facebook.com/BoraParaPratica<br>
-#Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
-#YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 08/08/2024<br>
 #Data de atualização: 13/09/2024<br>
 #Versão: 0.03<br>
@@ -38,10 +31,6 @@ Site Oficial do Ubuntu CVE: https://ubuntu.com/security/cves<br>
 Site Oficial do Ubuntu Membership: https://wiki.ubuntu.com/Membership
 
 O Ubuntu Pro é uma versão do Ubuntu oferecida pela Canonical para nuvens públicas, focada em uso empresarial e de produção. Ele é baseado em componentes do Ubuntu, mas vem com um conjunto de serviços adicionais que são ativados prontos para uso. O Ubuntu Pro também fornece Extended Security Maintenance (ESM).
-
-[![Ubuntu Pro Free](http://img.youtube.com/vi/SW9JzwjGdkM/0.jpg)](https://www.youtube.com/watch?v=SW9JzwjGdkM "Ubuntu Pro Free")
-
-Link da vídeo aula: https://www.youtube.com/watch?v=SW9JzwjGdkM
 
 #01_ Verificando as Informações do Sistema Operacional Ubuntu Server<br>
 ```bash
